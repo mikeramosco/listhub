@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/_276sdp"
+    android:layout_height="wrap_content" android:background="@color/colorButton"
+    android:paddingTop="@dimen/_14sdp" android:paddingBottom="@dimen/_10sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginEnd="@dimen/_18sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/filterSearchString"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/removeFiltersOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/removeFiltersString"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/listsOnlyLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:background="@drawable/transition_default">
+
+            <ImageView
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_list_white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/listsOnlyString"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/listsOnlyCheckbox"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/labelsLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:background="@drawable/transition_default">
+
+            <ImageView
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_label_white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/searchLabelsString"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/labelsCheckbox"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/notesLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:background="@drawable/transition_default">
+
+            <ImageView
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_description_white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/searchNotesString"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/notesCheckbox"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/rewardsLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:background="@drawable/transition_default">
+
+            <ImageView
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_card_giftcard_white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/searchRewardsString"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/rewardsCheckbox"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hideCompletedLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:background="@drawable/transition_default">
+
+            <ImageView
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_check_circle_white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/hideCompletedString"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/hideCompletedCheckbox"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/hideArchivedLayout"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingStart="@dimen/_12sdp"
+            android:paddingEnd="@dimen/_12sdp"
+            android:background="@drawable/transition_default">
+
+            <ImageView
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_archive_white" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="@dimen/_14sdp"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_gravity="center"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/hideArchivedString"
+                android:textColor="@android:color/white"/>
+
+            <ImageView
+                android:id="@+id/hideArchivedCheckbox"
+                android:padding="@dimen/_5sdp"
+                android:layout_gravity="center"
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginEnd="@dimen/_18sdp">
+
+        <TextView
+            android:id="@+id/cancelOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:fontFamily="sans-serif-black"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/cancelString"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/applyOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:fontFamily="sans-serif-black"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/applyString"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

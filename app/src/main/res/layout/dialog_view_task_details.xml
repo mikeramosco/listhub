@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/_276sdp"
+    android:layout_height="wrap_content" android:background="@color/colorButton"
+    android:paddingTop="@dimen/_14sdp" android:paddingStart="@dimen/_18sdp"
+    android:paddingEnd="@dimen/_18sdp" android:paddingBottom="@dimen/_10sdp">
+
+    <TextView
+        android:id="@+id/taskDetailsTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14sdp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/taskDetailsString"
+        android:textColor="@android:color/white"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:columnCount="2"
+        android:rowCount="12">
+
+        <TextView
+            android:id="@+id/taskLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskLabel"
+            android:textColor="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/taskDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/typeLabel"
+            android:textColor="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/typeDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/fromSectionLabel"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/fromSectionLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/fromSectionDetails"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/fromListLabel"
+            android:textColor="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/fromListDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/rewardedTaskLabel"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/rewardedFromLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/rewardedTaskText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/websiteLinkLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/websiteLinkLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/websiteLinkDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/linkedListLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/linkedListLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/linkedListDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/rewardLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/rewardLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/rewardDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/noteLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/noteLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/noteDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/dueDateLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/dueDateLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/dueDateDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/dateCreatedLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/creationDateLabel"
+            android:textColor="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/dateCreatedDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/dateCompletedLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/completionDateLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/dateCompletedDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end">
+
+        <TextView
+            android:id="@+id/closeOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:fontFamily="sans-serif-black"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/closeString"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

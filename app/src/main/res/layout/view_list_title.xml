@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/listTitleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:background="@drawable/transition_layout_list_item">
+
+        <ImageView
+            android:id="@+id/listTypeIcon"
+            android:padding="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/ic_list_white" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/listTitleText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14sdp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/untitledToDoListString"
+                android:textColor="@android:color/white"/>
+
+            <LinearLayout
+                android:id="@+id/listDetailsLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/noteIcon"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:src="@drawable/ic_description_gray"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/listDetailsDivider1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:text=" • "
+                    android:textColor="@color/colorLightGray"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/dateIcon"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:src="@drawable/ic_date_gray"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/dateText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="Tomorrow"
+                    android:textColor="@color/colorLightGray"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/listDetailsDivider2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:text=" • "
+                    android:textColor="@color/colorLightGray"
+                    android:visibility="gone"/>
+
+                <ImageView
+                    android:id="@+id/labelIcon"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_4sdp"
+                    android:src="@drawable/ic_label_gray"
+                    android:visibility="gone"/>
+
+                <TextView
+                    android:id="@+id/labelText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="Label"
+                    android:textStyle="italic"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:textColor="@color/colorLightGray"
+                    android:visibility="gone"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/detailsIcon"
+            android:padding="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/ic_info_outline_gray"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/star"
+            android:padding="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/ic_star_border_gray" />
+
+    </LinearLayout>
+
+</LinearLayout>

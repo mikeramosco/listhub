@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/_276sdp"
+    android:layout_height="wrap_content" android:background="@color/colorButton"
+    android:paddingTop="@dimen/_14sdp" android:paddingBottom="@dimen/_10sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginEnd="@dimen/_18sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/filterListsString"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/removeFiltersOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/removeFiltersString"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:background="@color/colorDarkGray"/>
+
+    <ScrollView
+        android:id="@+id/itemScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_300sdp"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@+id/itemContents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/favoritesLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:background="@drawable/transition_default">
+
+                <ImageView
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_star_white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_gravity="center"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/importantString"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/favoritesCheckbox"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/archivedLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:background="@drawable/transition_default">
+
+                <ImageView
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_archive_white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_gravity="center"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/archivedString"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/archivedCheckbox"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:paddingTop="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp"
+                android:background="@drawable/transition_default">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="@string/listTypesString"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/toDoListsLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:background="@drawable/transition_default"
+                android:visibility="gone">
+
+                <ImageView
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_list_white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_gravity="center"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/toDoListsString"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/toDoListsCheckbox"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/progressListsLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:background="@drawable/transition_default">
+
+                <ImageView
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_view_list_white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_gravity="center"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/progressListsString"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/progressListsCheckbox"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/routineListsLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:background="@drawable/transition_default">
+
+                <ImageView
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_format_list_numbered_white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_gravity="center"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/routineListsString"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/routineListsCheckbox"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bulletedListsLayout"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:background="@drawable/transition_default">
+
+                <ImageView
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_format_list_bulleted_white" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginStart="@dimen/_2sdp"
+                    android:layout_gravity="center"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="@string/bulletedListsString"
+                    android:textColor="@android:color/white"/>
+
+                <ImageView
+                    android:id="@+id/bulletedListsCheckbox"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_35sdp"
+                    android:layout_height="@dimen/_35sdp"
+                    android:src="@drawable/ic_check_box_outline_blank_gray" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/labelsHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/_12sdp"
+                android:paddingEnd="@dimen/_12sdp"
+                android:paddingTop="@dimen/_8sdp"
+                android:paddingBottom="@dimen/_8sdp"
+                android:background="@drawable/transition_default">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="@string/labelsString"
+                    android:fontFamily="sans-serif"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/labelsContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:background="@color/colorDarkGray"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginStart="@dimen/_18sdp"
+        android:layout_marginEnd="@dimen/_18sdp">
+
+        <TextView
+            android:id="@+id/cancelOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:fontFamily="sans-serif-black"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/cancelString"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/applyOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:fontFamily="sans-serif-black"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/applyString"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

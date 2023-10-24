@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/_286sdp"
+    android:layout_height="wrap_content" android:background="@color/colorButton"
+    android:paddingTop="@dimen/_14sdp" android:paddingStart="@dimen/_18sdp"
+    android:paddingEnd="@dimen/_18sdp" android:paddingBottom="@dimen/_10sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/renameSectionString"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/deleteSectionOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/deleteSectionString"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/sectionTitleField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14sdp"
+        android:hint="@string/enterSectionTitleString"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:textCursorDrawable="@null"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/colorButtonPressed"
+        android:backgroundTint="@color/colorTheme1"
+        android:inputType="text|textCapSentences"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end">
+
+        <TextView
+            android:id="@+id/cancelOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:fontFamily="sans-serif-black"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/cancelString"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/saveOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:fontFamily="sans-serif-black"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/saveString"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

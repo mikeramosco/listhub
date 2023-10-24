@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="@dimen/_276sdp"
+    android:layout_height="wrap_content" android:background="@color/colorButton"
+    android:paddingTop="@dimen/_14sdp" android:paddingStart="@dimen/_18sdp"
+    android:paddingEnd="@dimen/_18sdp" android:paddingBottom="@dimen/_10sdp">
+
+    <TextView
+        android:id="@+id/listDetailsTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14sdp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/toDoListDetails"
+        android:textColor="@android:color/white"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:columnCount="2"
+        android:rowCount="9">
+
+        <TextView
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/titleLabel"
+            android:textColor="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/listTitleDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/toDoListDetails"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/labelsLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/labelsLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/labelsDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/toDoListDetails"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/numSectionsLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/numSectionsLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/numSectionsDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/toDoListDetails"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/numTasksLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/numTasksLabel"
+            android:textColor="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/numTasksDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/toDoListDetails"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/numCompletedLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/numCompletedLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/numCompletedDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/toDoListDetails"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/noteLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/noteLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/noteDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/taskDetailsString"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/dueDateLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/dueDateLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/dueDateDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/toDoListDetails"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/creationDateLabel"
+            android:textColor="@color/colorLightGray"/>
+
+        <TextView
+            android:id="@+id/dateCreatedDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/toDoListDetails"
+            android:textColor="@android:color/white"/>
+
+        <TextView
+            android:id="@+id/archivedLabelText"
+            android:layout_width="@dimen/_105sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/archivedLabel"
+            android:textColor="@color/colorLightGray"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/archivedDetailsText"
+            android:layout_width="@dimen/_125sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:lines="1"
+            android:ellipsize="end"
+            android:text="@string/yesString"
+            android:textColor="@android:color/white"
+            android:visibility="gone"/>
+
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end">
+
+        <TextView
+            android:id="@+id/closeOption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_11sdp"
+            android:fontFamily="sans-serif-black"
+            android:padding="@dimen/_8sdp"
+            android:text="@string/closeString"
+            android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>

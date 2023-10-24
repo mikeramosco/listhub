@@ -1,0 +1,715 @@
+<!--suppress CheckTagEmptyBody -->
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ButtonCase">
+    <string name="app_name">ListHub</string>
+    <string name="app_name_title">L I S T H U B</string>
+
+    <!--  Bottom Navigation  -->
+    <string name="homeString">Home</string>
+    <string name="listsString">Lists</string>
+
+    <!--  Example List Titles  -->
+    <string name="exampleString">Example</string>
+    <string name="generalListTitle">General To-Do</string>
+    <string name="groceryListTitle">Groceries</string>
+    <string name="cookingListTitle">Cooking</string>
+    <string name="eventsListTitle">Events</string>
+    <string name="shoppingListTitle">Shopping</string>
+    <string name="businessPlanListTitle">SBA Business Plan Checklist</string>
+    <string name="morningRoutineTitle">Morning Routine</string>
+    <string name="bedtimeRoutineTitle">Bedtime Routine</string>
+    <string name="omeletRecipeTitle">Omelette Recipe</string>
+    <string name="porridgeRecipeTitle">Porridge Recipe</string>
+    <string name="recipesListTitle">Recipes</string>
+    <string name="remindersListTitle">Daily Reminders</string>
+
+    <!--  Example List Details  -->
+    <string name="generalListTasks"></string>
+    <string name="groceryListTasks">Eggs\nKosher Salt\nFresh Ground Black Pepper\nButter\nShredded Cheese\nParmesan\nPorridge Oats\nMilk\nGreek Yogurt\nHoney</string>
+    <string name="cookingListTasks">Buy Omelette Ingredients\nCook Omelette\nBuy Porridge Ingredients\nCook Porridge</string>
+    <string name="eventsListSections">Finished\nGoing\nEvents</string>
+    <string name="eventsListTasks">Ashley\'s Wedding Shower\nMark\'s Birthday Party
+        \tChristmas Day Party\nNew Year\'s Celebration</string>
+    <string name="shoppingListSections">Bought\nTo Buy\nWishlist\nSaved Items</string>
+    <string name="shoppingListTasks"></string>
+    <string name="businessPlanListSections">Completed\nIn Progress\nNext Steps
+        \nAssembling My Business Plan\nExecutive Summary\nFinancial Projections
+        \nFunding Request\nMarketing and Sales Strategies\nProduct/Service Line
+        \nMarket Research\nCompany Description\nPreparing to Write a Business Plan</string>
+    <string name="businessPlanListTasks">I have decided the type of business plan to write.
+        \nI have a business plan started, in-progress, or complete.
+        \nI know the audience of my business plan.
+        \nI know the need my business provides to the community.
+        \nI know my potential customers.
+        \nI know why my potential customers will buy my product or service.
+        \nI know how to reach potential customers.
+        \nI know where I will get the financial resources to start or grow my business.
+
+        \tI have a mission statement.
+        \nI know my attainable business goals and objectives.
+        \nIs my product or service new and exciting?
+        \nI know how my product is developed or service is provided.
+        \nI know who will buy my product or service.
+        \nI know how my business will compare to competitors in my industry.
+        \nI know how my business will manage foreseeable industry changes.
+        \nI know how my company management is organized and who makes the decisions.
+        \nDo I anticipate my business management structure changing?
+        \nI know the values that drive my business.
+        \nI know how many employees I have, what they do, and how they are paid.
+        \nI know the principal members of my business and their roles.
+        \nI can include a brief resume on each key manager within my business.
+        \nI know the legal structure of my business, such as licenses and/or permits my
+        company operates with or needs.
+
+        \tI know my industry.
+        \nI know my industry\'s current size and what share of that market I will have.
+        \nI know my competitors in my industry.
+        \nI know my direct competitors in my industry.
+        \nAre there regulations that apply to my industry?
+        \nI know the trends in my industry (growth, consumer preferences, product development)?
+        \nI know how and where my company fits in the industry.
+        \nI know the advantages and/or disadvantages I have over my competitors.
+        \nI know the barriers to entering this industry. (examples: high initial capital costs,
+        unique technology, customer need for brand recognition, etc.)
+        \nI know the demographics of my current or prospective customers.
+        \nI know what customers buy and why.
+        \nMy product is accessible to customers.
+        \nI know the price my customers will pay for my product or service.
+        \nWill my customers prefer my product over the alternatives?
+        \nI know the market segments or groups that are more likely to buy my product.
+
+        \tI know what product or service my business provides.
+        \nI have a pricing structure.
+        \nI know what factors give me a competitive advantage or disadvantage.
+        \nI keep an inventory.
+        \nI know my suppliers.
+        \nI know the lifecycle stage of my product or service.
+        \nI am performing or planning research and development activities?
+        \nI know what intellectual property rights I have for my product or service?
+
+        \tI know my plan to grow my business.
+        \nI know how to communicate with my customers.
+        \nI know how I will sell my product or service.
+        \nI have identified my market segment.
+        \nI have tailored product offerings, prices, distribution, promotional efforts,
+        and services toward identified market segments.
+        \nI have addressed unmet customer needs that offer adequate profitability for
+        \nthe business and focus on the target markets it can best serve.
+        \nI have considered changes in customer needs and the business environment
+        as well as emerging opportunities and threats.
+        \nI have identified new markets that I can successfully target.
+
+        \tI know my current and future (five years) funding requirements.
+        \nI know how I will intend to use the funds I receive.
+        \nI know my strategic financial situational plans for the future.
+        \nI have completed a Projected Balance Sheet statement.
+
+        \tI have completed a Cash Flow Projection statement.
+        \nI have completed a Profit and Loss (Income) Projection statement.
+        \nI have aligned my financial projections with my funding requests.
+
+        \tI have included a summary of my business.
+        \nI have included a summary of my products/services that I sell or plan to sell.
+        \nI have included my mission statement.
+        \nI have included a summary of my management and organizational structure.
+        \nI have included a summary of my target market and ideal customer.
+        \nI have included a summary of the future of my business and my industry.
+        \nI have included a summary of my banking relationships and information
+        regarding my current investors.
+        \nI have included a summary of my financial data and projections.
+
+        \tI have appendices in my business plan that include materials needed
+        to support what I claimed in my business plan.
+        \nI have a cover page.
+        \nI have a table of contents.
+        \nI have a large, 3-ring binder with tabbed dividers –
+        one for each of the business plan sections.
+        \nI have formatted the sections using the best practices outlined in the course.
+        \nI have asked two people to review my business plan.
+        \nI have assembled my business plan in the correct order.
+
+        \tGather all the necessary information and conduct all the research you will need to write
+        an accurate and complete business plan. Use free SBA tools to aid your research.
+        \nPrepare a draft business plan. Doing it is the only way you will learn. It doesn\'t have to
+        be perfect, long or complete. Prepare the parts of the plan that you can.
+        \nDiscuss your draft plan and any questions you have with a business mentor, coach, academic
+        advisor, SBA representative or another seasoned business advisor.
+        \nUse the information you receive to prepare a more finished product. Remember, the
+        business plan is a living document. It is a work in progress. Refine it, improve it and use
+        it as the blueprint to your success.</string>
+    <string name="businessPlanListNote">Source: https://www.sba.gov/sites/default/files/2018-01/CHECKLIST_-_How_to_Write_a_Business_Plan.pdf
+        \n\nYou wouldn\'t drive 2,000 miles without a map,
+        so don\'t start a business without writing a business plan; it\'s your roadmap to success!
+        \n\nAs explained in the course, business planning helps to ensure business success. And, as the
+        blueprint for your business, a business plan is a critical element because it showcases your
+        business\'s vision, product/service, marketing strategies, and financial projections.
+        \n\nRemember, a business plan outlines the complete operating framework of your business by
+        detailing who you are, why you\'re in business, what you do, how you do it, where you operate,
+        how you will generate profits, who your customers are, and why your business is important.
+        \n\nThe checklist below covers information you learned in the course and organizes the checkpoints
+        based on the sections of the business plan as well as what is outlined in the Build Your Business
+        Plan tool. Use the checklist to measure where you are in the process of collecting the necessary
+        material. As you progress, refer to the Build Your Business Plan tool for additional business plan
+        writing support as needed.
+        \n\nLet\'s begin charting your path to writing your business plan!</string>
+    <string name="morningRoutineSteps">Wake up &amp; play your morning playlist
+        \nMake your bed\nWash up in the bathroom\nDo some morning stretches
+        \nPrepare &amp; eat breakfast\nReview today\'s tasks</string>
+    <string name="bedtimeRoutineSteps">Prepare &amp; eat dinner
+        \nWash dishes &amp; clean house\nPrepare lunch for tomorrow
+        \nWash up in the bathroom\nPrepare tasks for tomorrow
+        \nPrepare your items for tomorrow (phone, wallet, keys, etc.)
+        \nLights out &amp; go to bed</string>
+    <string name="omeletRecipeSteps">*Read all instructions before you start!
+        Whisk the eggs: In a small bowl, crack the eggs.
+        With a fork, whisk vigorously together with the kosher salt, pepper and water.
+        \nMelt the butter: Heat a small 8-inch or 10-inch
+        nonstick skillet over just below high heat,
+        with the pan handle facing towards you.
+        Add the butter and swirl the pan to fully coat.
+        Wait until the butter starts to become foamy
+        with large bubbles but not yet browned, then pour in eggs.
+        \nCook the omelette (0 to 15 seconds):
+        When a skin just starts to form after 10 to 15 seconds,
+        add the cheese (and other filling ingredients)
+        in a line from left to right. Working quickly,
+        run a small spatula under the far edge of the omelette
+        to release it from the pan. Start to pull the eggs up
+        and shake and tilt the pan to spread out any uncooked egg
+        and allow it to cook. Using the spatula, roll the eggs up
+        and over the cheese; this will be intentionally messy!
+        \nCook the omelette (15 to 30 seconds):
+        Cook another 10 to 15 seconds until just barely set;
+        the outside should be a pale golden and the inside soft and creamy.
+        For a harder cooked omelette, cook several seconds longer. Turn off the heat.
+        \nFlip the omelette onto a plate: To remove the omelette,
+        hold a plate in one hand. Then pick up the pan with your right hand,
+        thumb up, and quickly turn the pan upside down over the plate
+        so that the omelette rolls off onto the middle of the plate,
+        folding over itself into a rolled shape. Serve immediately.</string>
+    <string name="omeletRecipeNote">Ingredients\n- 2 eggs\n- ⅛ teaspoon kosher salt
+        \n- 2 grinds fresh ground black pepper
+        \n- ½ teaspoon water\n- ½ tablespoon butter\n- ¼ cup shredded cheese,
+        ideally 2 tablespoons each shredded cheddar and Parmesan
+        \n- Additional filling ingredients, if desired (see source)
+        \n\nSource: https://www.acouplecooks.com/omelette-recipe</string>
+    <string name="porridgeRecipeSteps">Put 50g porridge oats in a saucepan,
+        pour in 350ml milk or water and sprinkle in a pinch of salt.
+        Bring to the boil and simmer for 4-5 minutes,
+        stirring from time to time and watching carefully
+        that it doesn\'t stick to the bottom of the pan.
+        \nOr you can try this in a microwave. Mix the porridge oats,
+        milk or water and a pinch of salt in a large microwave-proof bowl,
+        then microwave on High for 5 minutes, stirring halfway through.
+        Leave to stand for 2 minutes before eating.
+        \nTo serve, pour into bowls, spoon Greek yogurt,
+        thinned with a little milk, on top and drizzle with honey.</string>
+    <string name="porridgeRecipeNote">Ingredients\n- 50g porridge oats
+        \n- 350ml milk or water, or a mixture of the two
+        \n- Greek yogurt, thinned with a little milk and clear honey, to serve
+        \n\nSource: https://www.bbcgoodfood.com/recipes/perfect-porridge</string>
+    <string name="recipesListItems">Omelette Recipe\nPorridge Recipe</string>
+    <string name="remindersListItems">Just relax &amp; do what you think is best;
+        don\'t dwell on mistakes, you will learn as you go.
+        \nKnow that you have the power to figure things out &amp;
+        that success is within your reach.
+        \nYou are more likely to succeed
+        if you put all your energy in finding practical solutions.
+        The less you worry, the better the result will be.
+        \nAlways keep trying like you would in a game; when you lose,
+        you want to keep trying until you win.
+        \nBelieve everything happens for a reason and
+        there is a specific path being paved for you.
+        \nMotivate yourself to start something by imagining
+        the feeling of accomplishment you\'ll get when completing it.
+        \nSometimes bad things happen, but there\'s always more good things;
+        we just easily take them for granted.
+        \nReward yourself when you finish something
+        as a reminder that you are capable.
+        Acknowledge your accomplishments &amp;
+        focus on what you\'re proud of.</string>
+
+    <!--  Home Section Titles  -->
+    <string name="calendarString">CALENDAR</string>
+    <string name="importantCapsString">IMPORTANT</string>
+    <string name="recentlyAddedString">RECENTLY ADDED</string>
+    <string name="rewardsString">REWARDS</string>
+    <string name="completedCapsString">COMPLETED</string>
+
+    <!--  Home Section Info  -->
+    <string name="calendarInfo">Displays items added to the calendar</string>
+    <string name="importantInfo">Displays items marked as important</string>
+    <string name="recentlyAddedInfo">Displays items that were added recently</string>
+    <string name="rewardsInfo">Displays unclaimed earned rewards</string>
+    <string name="completedInfo">Displays items marked as completed</string>
+
+    <!--  Filter Home Section Strings  -->
+    <string name="filterCalendarString">Filter calendar</string>
+    <string name="filterImportantString">Filter important</string>
+    <string name="filterRecentlyAddedString">Filter recently added</string>
+    <string name="filterRewardsString">Filter rewards</string>
+    <string name="filterCompletedString">Filter completed</string>
+
+    <!--  Home Section Filtered Strings  -->
+    <string name="calendarFilteredString">Calendar filtered</string>
+    <string name="importantFilteredString">Important filtered</string>
+    <string name="recentlyAddedFilteredString">Recently added filtered</string>
+    <string name="rewardsFilteredString">Rewards filtered</string>
+    <string name="completedFilteredString">Completed filtered</string>
+
+    <!--  Custom date range dialog strings  -->
+    <string name="customDateRangeString">Custom date range</string>
+    <string name="startDateLabel">Start date:</string>
+    <string name="endDateLabel">End date:</string>
+    <string name="singleDateLabel">Set date: </string>
+    <string name="singleDateOnlyString">Single date only</string>
+
+    <!--  Filter home section dialog strings  -->
+    <string name="toDoListsAndTasksString">To-do lists &amp; tasks</string>
+    <string name="sectionListsAndTasksString">To-do lists &amp; tasks</string>
+    <string name="routineListsAndStepsString">Routine lists &amp; steps</string>
+    <string name="bulletedListsAndBulletpointsString">Bulleted lists &amp; bullets</string>
+    <string name="toDoListTasksString">To-do list tasks</string>
+    <string name="sectionListTasksString">To-do list tasks</string>
+    <string name="routineStepsString">Routine steps</string>
+    <string name="bulletpointsString">Bulletpoints</string>
+    <string name="listItemTypesString">List item types</string>
+
+    <!--  Set For Date Strings  -->
+    <string name="setForXString">Set for %1$s</string>
+    <string name="setTodayString">Set for today</string>
+    <string name="setTomorrowString">Set for tomorrow</string>
+    <string name="setYesterdayString">Set for yesterday</string>
+    <string name="xAndYString">Set for %1$s &amp; %2$s</string>
+    <string name="xToYString">Set within %1$s to %2$s</string>
+    <string name="nextXDaysString">Set in the next %1$s days</string>
+    <string name="nextXWeeksString">Set in the next %1$s weeks</string>
+    <string name="nextXMonthsString">Set in the next %1$s months</string>
+    <string name="nextXYearsString">Set in the next %1$s years</string>
+    <string name="lastXDaysString">Set in the last %1$s days</string>
+    <string name="lastXWeeksString">Set in the last %1$s weeks</string>
+    <string name="lastXMonthsString">Set in the last %1$s months</string>
+    <string name="lastXYearsString">Set in the last %1$s years</string>
+    <string name="setWithinCustomDateRangeString">Set in custom date range</string>
+    <string name="setAnyDateString">Set for any date</string>
+
+    <!--  Added On Date Strings  -->
+    <string name="addedOnXString">Added on %1$s</string>
+    <string name="addedTodayString">Added today</string>
+    <string name="addedYesterdayString">Added yesterday</string>
+    <string name="addedXAndYString">Added %1$s &amp; %2$s</string>
+    <string name="addedXToYString">Added within %1$s to %2$s</string>
+    <string name="addedLastXDaysString">Added in the last %1$s days</string>
+    <string name="addedLastXWeeksString">Added in the last %1$s weeks</string>
+    <string name="addedLastXMonthsString">Added in the last %1$s months</string>
+    <string name="addedLastXYearsString">Added in the last %1$s years</string>
+    <string name="addedWithinCustomDateRangeString">Added in custom date range</string>
+    <string name="addedAnyDateString">Added on any date</string>
+
+    <!--  Completed On Date Strings  -->
+    <string name="completedOnXString">Completed on %1$s</string>
+    <string name="completedTodayString">Completed today</string>
+    <string name="completedYesterdayString">Completed yesterday</string>
+    <string name="completedXAndYString">Completed %1$s &amp; %2$s</string>
+    <string name="completedXToYString">Completed within %1$s to %2$s</string>
+    <string name="completedLastXDaysString">Completed in the last %1$s days</string>
+    <string name="completedLastXWeeksString">Completed in the last %1$s weeks</string>
+    <string name="completedLastXMonthsString">Completed in the last %1$s months</string>
+    <string name="completedLastXYearsString">Completed in the last %1$s years</string>
+    <string name="completedWithinCustomDateRangeString">Completed in custom date range</string>
+    <string name="completedAnyDateString">Completed on any date</string>
+
+    <!--  Lists Fragment Strings  -->
+    <string name="listsFilteredString">Lists filtered</string>
+    <string name="filterListsString">Filter lists</string>
+    <string name="deleteStringLower">Delete</string>
+    <string name="duplicateStringLower">Duplicate</string>
+    <string name="createNewListString">Create new list</string>
+    <string name="archiveString">Archive</string>
+    <string name="unarchiveString">Unarchive</string>
+    <string name="archiveListString">Archive list</string>
+    <string name="unarchiveListString">Unarchive list</string>
+
+    <!--  Search Strings  -->
+    <string name="searchString">Search</string>
+    <string name="filterSearchString">Filter search</string>
+    <string name="listsOnlyString">Lists only</string>
+    <string name="hideArchivedString">Hide archived</string>
+    <string name="hideCompletedString">Hide completed</string>
+    <string name="searchLabelsString">Search labels</string>
+    <string name="searchNotesString">Search notes</string>
+    <string name="searchRewardsString">Search rewards</string>
+
+    <!--  Add Button Options  -->
+    <string name="addListItemString">Add Item to List</string>
+    <string name="createBulletedListString">Create Bulletpoint List</string>
+    <string name="createRoutineListString">Create Routine List</string>
+    <string name="createToDoListString">Create To-Do List</string>
+    <string name="createProgressListString">Create To-Do List</string>
+    <string name="newBulletedListString">New Bulletpoint List</string>
+    <string name="newRoutineListString">New Routine List</string>
+    <string name="newToDoListString">New To-Do List</string>
+    <string name="newProgressListString">New To-Do List</string>
+
+    <!--  Add Button Options Info  -->
+    <string name="addListItemInfo">Add a new item to an existing list</string>
+    <string name="createBulletedListInfo">Best for quick note-taking with bulletpoints</string>
+    <string name="createToDoListInfo">Best for a short &amp; simple set of tasks</string>
+<!--    <string name="createProgressListInfo">Best for organizing tasks &amp; long-term use</string>-->
+    <string name="createProgressListInfo">Best for keeping track of a set of tasks</string>
+    <string name="createRoutineListInfo">Best for recurring step-by-step activities</string>
+
+<!--    <string name="createProgressListInfo">Best for long-term plans (projects, business, etc.)</string>-->
+<!--    <string name="createRoutineListInfo">Best for recurring activities (errands, recipes, etc.)</string>-->
+
+    <!--  Bulleted List Strings  -->
+    <string name="untitledBulletedListString">Untitled Bulletpoint List</string>
+    <string name="renameBulletedListString">Rename Bulletpoint List</string>
+    <string name="reorderItemsString">Reorder items</string>
+    <string name="addAnItemString">Add an item</string>
+    <string name="deleteItemString">Delete item</string>
+    <string name="deleteItemsString">Delete items</string>
+    <string name="duplicateItemString">Duplicate item</string>
+    <string name="duplicateItemsString">Duplicate items</string>
+    <string name="sortedBySetDateString">Sorted by set date</string>
+    <string name="bulletpointNoteString">Bulletpoint note</string>
+
+    <!--  Confirm Dialog Bulleted List Strings  -->
+    <string name="moveItemsPrompt">The selected items will be moved.</string>
+    <string name="moveItemPrompt">The selected item will be moved.</string>
+    <string name="duplicateItemsPrompt">The selected items will be duplicated.</string>
+    <string name="duplicateItemPrompt">The selected item will be duplicated.</string>
+    <string name="deleteItemsPrompt">The selected items will be deleted.</string>
+    <string name="deleteItemPrompt">The selected item will be deleted.</string>
+
+    <!--  Routine List Strings  -->
+    <string name="untitledRoutineListString">Untitled Routine List</string>
+    <string name="renameRoutineListString">Rename Routine List</string>
+    <string name="reorderRoutineString">Reorder routine</string>
+    <string name="resetRoutineString">Reset routine</string>
+    <string name="hideNumbersString">Hide step numbers</string>
+    <string name="showNumbersString">Show step numbers</string>
+    <string name="addAStepString">Add a step</string>
+    <string name="completeStepsString">Complete steps</string>
+    <string name="completeStepString">Complete step</string>
+    <string name="deleteStepString">Delete step</string>
+    <string name="deleteStepsString">Delete steps</string>
+    <string name="duplicateStepString">Duplicate step</string>
+    <string name="duplicateStepsString">Duplicate steps</string>
+    <string name="stepNoteString">Step note</string>
+
+    <!--  Confirm Dialog Bulleted List Strings  -->
+    <string name="completeStepsPrompt">The selected steps will be moved to completed.</string>
+    <string name="completeStepPrompt">The selected step will be moved to completed.</string>
+    <string name="moveStepsPrompt">The selected steps will be moved.</string>
+    <string name="moveStepPrompt">The selected step will be moved.</string>
+    <string name="duplicateStepsPrompt">The selected steps will be duplicated.</string>
+    <string name="duplicateStepPrompt">The selected step will be duplicated.</string>
+    <string name="deleteStepsPrompt">The selected steps will be deleted.</string>
+    <string name="deleteStepPrompt">The selected step will be deleted.</string>
+
+    <!--  To Do List Strings  -->
+    <string name="untitledToDoListString">Untitled To-Do List</string>
+    <string name="completedString">Completed</string>
+    <string name="renameToDoListString">Rename To-Do List</string>
+    <string name="listNoteString">List note</string>
+    <string name="addATaskString">Add a task</string>
+    <string name="taskNoteString">Task note</string>
+    <string name="rewardNoteString">Reward note</string>
+    <string name="taskForRewardNote">Rewarded from completed task:\n\n\"%1$s\"</string>
+    <string name="dateAtTimeString">%1$s at %2$s</string>
+    <string name="dateAndTimeString">%1$s %2$s</string>
+
+    <!--  Progress List Strings  -->
+    <string name="untitledProgressListString">Untitled To-Do List</string>
+    <string name="renameProgressListString">Rename To-Do List</string>
+    <string name="defaultFutureListTitle">Future</string>
+    <string name="defaultUpcomingListTitle">Upcoming</string>
+    <string name="defaultInProgressListTitle">Tasks</string>
+    <string name="defaultCompletedListTitle">Completed</string>
+    <string name="addToString">Add to:</string>
+    <string name="moveToNextSectionString">Move to next section</string>
+    <string name="moveToOtherSectionString">Move to other section</string>
+    <string name="selectSectionString">Select section</string>
+    <string name="addSectionString">Add section</string>
+    <string name="addNewSectionString">Add new section</string>
+    <string name="renameSectionString">Rename section</string>
+    <string name="enterSectionTitleString">Enter section title</string>
+    <string name="sectionLabelString">Section:</string>
+
+    <!--  More Options  -->
+    <string name="starListString">Mark list as important</string>
+    <string name="unStarListString">Remove list from important</string>
+    <string name="renameListString">Edit list</string>
+    <string name="changeThemeString">Change theme</string>
+    <string name="addRoutineToCalendarString">Add routine to calendar</string>
+    <string name="editRoutineCalendarString">Edit routine calendar</string>
+    <string name="manageLabelsString">Manage labels</string>
+    <string name="addLabelString">Add label</string>
+    <string name="addNewLabelString">Add new label</string>
+    <string name="sortByString">Sort by</string>
+    <string name="reorderString">Reorder</string>
+    <string name="reorderSectionString">Reorder section</string>
+    <string name="reorderSectionsString">Reorder sections</string>
+    <string name="reorderListsString">Reorder lists</string>
+    <string name="reorderTasksString">Reorder tasks</string>
+    <string name="reorderCompletedString">Reorder completed tasks</string>
+    <string name="reorderSingleListString">Reorder %1$s</string>
+    <string name="deleteCompletedTasksString">Delete completed tasks</string>
+    <string name="deleteListString">Delete list</string>
+    <string name="deleteListsString">Delete lists</string>
+    <string name="duplicateListString">Duplicate list</string>
+    <string name="duplicateListsString">Duplicate lists</string>
+    <string name="saveOrderString">Save new list order</string>
+    <string name="reverseOrderString">Reverse original list order</string>
+    <string name="copyListToClipboardString">Copy list to clipboard</string>
+    <string name="showDetailsString">Show details</string>
+    <string name="hideDetailsString">Hide details</string>
+    <string name="setDateRangeString">Show items that were &#8230;</string>
+
+    <!--  Sort By Options  -->
+    <string name="lastUpdatedString">Last updated</string>
+    <string name="dueDateString">Set date</string>
+    <string name="creationDateString">Creation date</string>
+    <string name="alphabeticallyString">Alphabetically</string>
+    <string name="clearSortingString">Remove sorting</string>
+
+    <!--  Sorting Info  -->
+    <string name="originalOrderString">Original order</string>
+    <string name="ascendingString">Ascending</string>
+    <string name="descendingString">Descending</string>
+    <string name="newestFirstString">Newest first</string>
+    <string name="oldestFirstString">Oldest first</string>
+    <string name="aToZString">A to Z</string>
+    <string name="zToAString">Z to A</string>
+
+    <!--  Sorted By Label  -->
+    <string name="sortedByLastUpdatedString">Sorted by last updated</string>
+    <string name="sortedByDueDateString">Sorted by set date</string>
+    <string name="sortedByCreationDateString">Sorted by creation date</string>
+    <string name="sortedAlphabeticallyString">Sorted alphabetically</string>
+
+    <!--  Option Strings  -->
+    <string name="backString">NO, GO BACK</string>
+    <string name="cancelString">CANCEL</string>
+    <string name="saveString">SAVE</string>
+    <string name="doneString">DONE</string>
+    <string name="applyString">APPLY</string>
+    <string name="createString">CREATE</string>
+    <string name="removeString">REMOVE</string>
+    <string name="moveString">MOVE</string>
+    <string name="duplicateString">DUPLICATE</string>
+    <string name="deleteString">DELETE</string>
+    <string name="archiveCapsString">ARCHIVE</string>
+    <string name="unarchiveCapsString">UNARCHIVE</string>
+    <string name="newLabelString">NEW LABEL</string>
+    <string name="newListString">NEW LIST</string>
+    <string name="removeFiltersString">REMOVE FILTERS</string>
+    <string name="deleteSectionString">DELETE SECTION</string>
+    <string name="selectString">SELECT</string>
+    <string name="linkString">LINK</string>
+    <string name="unlinkString">UNLINK</string>
+    <string name="exitString">EXIT</string>
+    <string name="closeString">CLOSE</string>
+    <string name="addExamplesString">ADD EXAMPLES</string>
+    <string name="repeatString">Repeat</string>
+    <string name="setDateString">Set date</string>
+    <string name="addNoteString">Add note</string>
+    <string name="viewNoteString">View note</string>
+    <string name="addRewardString">Add reward</string>
+    <string name="viewRewardString">View reward</string>
+    <string name="editCalendarString">Edit calendar</string>
+    <string name="addToCalendarString">Add to calendar</string>
+    <string name="removeFromCalendarString">Remove from calendar</string>
+    <string name="addTimeString">Add time</string>
+    <string name="linkToWebsiteString">Link to website</string>
+    <string name="linkToListString">Link to other list</string>
+    <string name="linkToNewListString">Link to new list</string>
+    <string name="openLinkedListString">Open list</string>
+    <string name="copyToClipboardString">Copy to clipboard</string>
+    <string name="detailsString">Details</string>
+    <string name="moreOptionsString">More options</string>
+    <string name="selectAListString">[Select a list]</string>
+    <string name="selectListString">Select list</string>
+
+    <!--  More Options for Selected Tasks  -->
+    <string name="clearSelectionString">Clear selection</string>
+    <string name="selectAllString">Select all</string>
+    <string name="completeTasksString">Complete tasks</string>
+    <string name="completeTaskString">Complete task</string>
+    <string name="moveToOtherListString">Move to other list</string>
+    <string name="moveToNewListString">Move to new list</string>
+    <string name="duplicateTasksString">Duplicate tasks</string>
+    <string name="duplicateTaskString">Duplicate task</string>
+    <string name="deleteTasksString">Delete tasks</string>
+    <string name="deleteTaskString">Delete task</string>
+
+    <!--  Choose Calendar Method Strings  -->
+    <string name="addDateInfo">Choose a specific date for this task</string>
+    <string name="repeatInfo">Choose which days to do this task</string>
+    <string name="removeFromCalendarInfo">Clears added date &amp; repeating days</string>
+
+    <!--  Text Field Hints  -->
+    <string name="enterListTitleString">Enter list title</string>
+    <string name="enterListLabelString">Enter list label</string>
+    <string name="setARewardString">Set a reward</string>
+    <string name="websiteLinkHint">www.example.com</string>
+    <string name="httpsString">https://</string>
+    <string name="httpString">http://</string>
+
+    <!--  Date Texts  -->
+    <string name="todayString">Today</string>
+    <string name="tomorrowString">Tomorrow</string>
+    <string name="yesterdayString">Yesterday</string>
+    <string name="xDaysAgoString">%1$s days ago</string>
+    <string name="inXDaysString">In %1$s days</string>
+    <string name="xWeeksAgoString">%1$s weeks ago</string>
+    <string name="inXWeeksString">In %1$s weeks</string>
+    <string name="xMonthsAgoString">%1$s months ago</string>
+    <string name="inXMonthsString">In %1$s months</string>
+    <string name="xYearsAgoString">%1$s years ago</string>
+    <string name="inXYearsString">In %1$s years</string>
+    <string name="repeatEveryString">Repeat every &#8230;</string>
+
+    <!--  Plural Days  -->
+    <string name="sundaysString">Sundays</string>
+    <string name="mondaysString">Mondays</string>
+    <string name="tuesdaysString">Tuesdays</string>
+    <string name="wednesdaysString">Wednesdays</string>
+    <string name="thursdaysString">Thursdays</string>
+    <string name="fridaysString">Fridays</string>
+    <string name="saturdaysString">Saturdays</string>
+
+    <!--  Day Abbreviations  -->
+    <string name="sunString">SUN</string>
+    <string name="monString">MON</string>
+    <string name="tueString">TUE</string>
+    <string name="wedString">WED</string>
+    <string name="thuString">THU</string>
+    <string name="friString">FRI</string>
+    <string name="satString">SAT</string>
+
+    <!--  Day Letters  -->
+    <string name="sunLetter">S</string>
+    <string name="monLetter">M</string>
+    <string name="tueLetter">T</string>
+    <string name="wedLetter">W</string>
+    <string name="thuLetter">T</string>
+    <string name="friLetter">F</string>
+    <string name="satLetter">S</string>
+
+    <!--  Frequency Text  -->
+    <string name="weekdaysString">Weekdays</string>
+    <string name="weekendsString">Weekends</string>
+    <string name="everydayString">Everyday</string>
+
+    <!--  List Details Dialog Strings  -->
+    <string name="toDoListDetails">To-do list details</string>
+    <string name="sectionsListDetails">To-do list details</string>
+    <string name="routineListDetails">Routine list details</string>
+    <string name="bulletpointListDetails">Bulletpoint list details</string>
+    <string name="titleLabel">Title: </string>
+    <string name="labelsLabel">Labels: </string>
+    <string name="numTasksLabel"># tasks: </string>
+    <string name="numCompletedLabel"># completed: </string>
+    <string name="numSectionsLabel"># sections: </string>
+    <string name="numStepsLabel"># steps: </string>
+    <string name="numBulletpointsLabel"># bulletpoints: </string>
+    <string name="archivedLabel">Archived: </string>
+    <string name="yesString">Yes</string>
+
+    <!--  Task Details Dialog Strings  -->
+    <string name="taskDetailsString">Task details</string>
+    <string name="itemDetailsString">Item details</string>
+    <string name="stepDetailsString">Step details</string>
+    <string name="rewardDetailsString">Reward details</string>
+    <string name="taskLabel">Task: </string>
+    <string name="itemLabel">Item: </string>
+    <string name="stepLabel">Step: </string>
+    <string name="typeLabel">Type: </string>
+    <string name="rewardedFromLabel">Rewarded from: </string>
+    <string name="fromListLabel">From list: </string>
+    <string name="fromSectionLabel">From section: </string>
+    <string name="websiteLinkLabel">Website link: </string>
+    <string name="linkedListLabel">Links to list: </string>
+    <string name="rewardLabel">Reward: </string>
+    <string name="noteLabel">Note: </string>
+    <string name="setTimeLabel">Set time: </string>
+    <string name="dueDateLabel">Set date: </string>
+    <string name="repeatsLabel">Repeats: </string>
+    <string name="dateRewardedLabel">Date rewarded: </string>
+    <string name="creationDateLabel">Date created: </string>
+    <string name="completionDateLabel">Date completed: </string>
+    <string name="lastCompletedLabel">Last completed: </string>
+    <string name="emptyDetailString">[empty]</string>
+
+    <!--  Task Types  -->
+    <string name="toDoListTaskString">To-do list task</string>
+    <string name="toDoListRewardString">To-do list reward</string>
+    <string name="progressListTaskString">To-do list task</string>
+    <string name="progressListRewardString">To-do list reward</string>
+    <string name="routineListTaskString">Routine step</string>
+    <string name="bulletedListItemString">Bulletpoint</string>
+
+    <!--  Confirm Dialog Strings  -->
+    <string name="areYouSureString">Are you sure?</string>
+    <string name="removeDatePrompt">The saved date will be removed.</string>
+    <string name="removeTimePrompt">The saved time will be removed.</string>
+    <string name="deleteNotePrompt">The saved note will be deleted.</string>
+    <string name="unlinkWebsitePrompt">The saved website link will be removed.</string>
+    <string name="removeRewardPrompt">The saved reward will be removed.</string>
+    <string name="unlinkListPrompt">The link will be removed.</string>
+    <string name="moveTasksPrompt">The selected tasks will be moved to the selected list.</string>
+    <string name="moveTaskPrompt">The selected task will be moved to the selected list.</string>
+    <string name="duplicateTasksPrompt">The selected tasks will be duplicated.</string>
+    <string name="duplicateTaskPrompt">The selected task will be duplicated.</string>
+    <string name="deleteTasksPrompt">The selected tasks will be deleted.</string>
+    <string name="deleteTaskPrompt">The selected task will be deleted.</string>
+    <string name="completeTasksPrompt">The selected tasks will be moved to completed.</string>
+    <string name="completeTaskPrompt">The selected task will be moved to completed.</string>
+    <string name="deleteCompletedTasksPrompt">All completed tasks will be deleted.</string>
+    <string name="deleteListPrompt">\"%1$s\" will be permanently deleted.</string>
+    <string name="deleteSelectedListsPrompt">The selected lists will be permanently deleted.</string>
+    <string name="deleteSelectedListPrompt">The selected list will be permanently deleted.</string>
+    <string name="deleteSectionPrompt">\"%1$s\" and all tasks from this section will be permanently deleted.</string>
+    <string name="duplicateListsPrompt">The selected lists will be duplicated.</string>
+    <string name="duplicateListPrompt">The selected list will be duplicated.</string>
+    <string name="archiveListPrompt">\"%1$s\" will be archived.</string>
+    <string name="unarchiveListPrompt">\"%1$s\" will be unarchived.</string>
+    <string name="archiveSelectedListsPrompt">The selected lists will be archived.</string>
+    <string name="archiveSelectedListPrompt">The selected list will be archived.</string>
+    <string name="unarchiveSelectedListsPrompt">The selected lists will be unarchived.</string>
+    <string name="unarchiveSelectedListPrompt">The selected list will be unarchived.</string>
+    <string name="exitReorderPagePrompt">If you exit now, your changes won\'t be saved.</string>
+    <string name="cancelAddTaskPrompt">If you close this now, your new task won\'t be added.</string>
+    <string name="cancelAddStepPrompt">If you close this now, your new step won\'t be added.</string>
+    <string name="cancelAddItemPrompt">If you close this now, your new item won\'t be added.</string>
+    <string name="createExamplesPrompt">This action will create 12 example lists. Would you like these example lists to be added?</string>
+
+    <!--  Filter List Strings  -->
+    <string name="importantString">Important</string>
+    <string name="archivedString">Archived</string>
+    <string name="listTypesString">List types</string>
+    <string name="labelsString">Labels</string>
+    <string name="toDoListsString">To-do lists</string>
+    <string name="progressListsString">To-do lists</string>
+    <string name="routineListsString">Routine lists</string>
+    <string name="bulletedListsString">Bulletpoint lists</string>
+    <string name="noLabelsString">(Lists with no labels)</string>
+
+    <!--  List Types  -->
+    <string name="toDoListString">To-do list</string>
+    <string name="progressListString">To-do list</string>
+    <string name="routineListString">Routine list</string>
+    <string name="bulletedListString">Bulletpoint list</string>
+
+    <!--  Toast messages  -->
+    <string name="newItemAddedMessage">\"%1$s\" has been added to \"%2$s\".</string>
+    <string name="listCopiedToClipboardMessage">The list has been copied to the clipboard.</string>
+    <string name="taskCopiedToClipboardMessage">\"%1$s\" has been copied to the clipboard.</string>
+
+    <!--  Messages  -->
+    <string name="noItemsToShowMessage">There are no items to show.</string>
+    <string name="noTasksToShowMessage">There are no tasks to show.</string>
+    <string name="noStepsToShowMessage">There are no steps to show.</string>
+    <string name="noItemsMatchSearchMessage">No items match your search.</string>
+</resources>

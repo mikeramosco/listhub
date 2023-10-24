@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorBackground"
+    tools:context=".ReorderListActivity">
+
+    <LinearLayout
+        android:id="@+id/listActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/transition_action_bar"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/_8sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+
+        <LinearLayout
+            android:id="@+id/exitButton"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_margin="@dimen/_4sdp"
+            android:gravity="center"
+            android:background="@drawable/transition_icon">
+
+            <ImageView
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/ic_close_white" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/reorderTasksText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/_2sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:fontFamily="sans-serif-black"
+            android:text="@string/reorderTasksString"
+            android:textColor="@android:color/white"
+            android:ellipsize="end"
+            android:maxLines="1"/>
+
+        <LinearLayout
+            android:id="@+id/saveButton"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_margin="@dimen/_4sdp"
+            android:gravity="center"
+            android:background="@drawable/transition_icon">
+
+            <ImageView
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/ic_save_white" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/moreOptions"
+            android:layout_width="@dimen/_36sdp"
+            android:layout_height="@dimen/_36sdp"
+            android:layout_margin="@dimen/_4sdp"
+            android:gravity="center"
+            android:background="@drawable/transition_icon">
+
+            <ImageView
+                android:layout_margin="@dimen/_8sdp"
+                android:layout_width="@dimen/_20sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:src="@drawable/ic_more_vert_white" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/_45sdp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

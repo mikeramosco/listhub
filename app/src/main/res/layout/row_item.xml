@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/taskLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_2sdp"
+        android:layout_marginBottom="@dimen/_2sdp"
+        android:background="@drawable/transition_layout_list_item">
+
+        <ImageView
+            android:id="@+id/listTypeIcon"
+            android:padding="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/ic_list_white"
+            android:visibility="gone"/>
+
+        <View
+            android:id="@+id/taskTextSpacer"
+            android:layout_width="@dimen/_18sdp"
+            android:layout_height="0dp"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/_2sdp"
+            android:layout_marginEnd="@dimen/_2sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:layout_gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_14sdp"
+                android:text="Task"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/dragIcon"
+            android:padding="@dimen/_10sdp"
+            android:layout_gravity="center"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:src="@drawable/ic_reorder_gray" />
+
+    </LinearLayout>
+
+</LinearLayout>

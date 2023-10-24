@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:paddingStart="@dimen/_12sdp"
+    android:paddingEnd="@dimen/_12sdp" android:background="@drawable/transition_default">
+
+    <ImageView
+        android:id="@+id/itemIcon"
+        android:padding="@dimen/_8sdp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@drawable/ic_label_white"
+        android:visibility="gone"/>
+
+    <View
+        android:id="@+id/itemTextSpacer"
+        android:layout_width="@dimen/_6sdp"
+        android:layout_height="0dp"/>
+
+    <TextView
+        android:id="@+id/itemText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/_2sdp"
+        android:layout_marginEnd="@dimen/_2sdp"
+        android:textSize="@dimen/_14sdp"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/defaultInProgressListTitle"
+        android:textColor="@android:color/white"/>
+
+    <ImageView
+        android:id="@+id/checkbox"
+        android:padding="@dimen/_5sdp"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:src="@drawable/ic_radio_button_unchecked_gray" />
+
+</LinearLayout>
